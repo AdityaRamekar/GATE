@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseYourDepartment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:paddingLeft="40dp"
+        android:layout_gravity="center"
+        android:text="Choose Your Department"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/CSE"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="CSE"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/ENTC"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="ENTC"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/darker_gray"
+        android:onClick="displayToast"/>
+
+    <Button
+        android:id="@+id/Electrical"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Electrical"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/darker_gray"
+        android:onClick="displayToast"/>
+    <Button
+        android:id="@+id/civil"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Civil"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/darker_gray"
+        android:onClick="displayToast"/>
+    <Button
+        android:id="@+id/mechanical"
+        android:layout_width="351dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="mechanical"
+        android:textColor="@color/black"
+        app:backgroundTint="@android:color/darker_gray"
+        android:onClick="displayToast"/>
+
+
+</LinearLayout>
